@@ -6,8 +6,8 @@ rooms = [
 ]
 
 clients = [
-    {'nombres': 'Juan Perez',  'dni': '12345678'},
-    {'nombres': 'Maria Gomez', 'dni': '87654321'},
+    {'nombres': 'Juan Perez',  'dni': '1234567'},
+    {'nombres': 'Maria Gomez', 'dni': '7654321'},
 ]
 
 def get_rooms():
