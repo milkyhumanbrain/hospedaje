@@ -1,4 +1,4 @@
-# Sistema de Reservas para Hostal
+# Sistema de Reservas para Hospedaje
 
 Este proyecto es una aplicación simple en Python para realizar reservas de habitaciones en un hospedaje. Permite visualizar habitaciones disponibles y gestionar clientes.
 
