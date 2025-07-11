@@ -2,10 +2,9 @@ from storage import get_rooms
 
 def main():
     print("Bienvenido al sistema de reservas de habitaciones")
-    
-    # Mostrar habitaciones disponibles
-    rooms = get_rooms()
-    print("Habitaciones disponibles:", len(rooms))
+    if registro():
+        menu_reserva()
+        print("\nGracias por usar nuestro programa.")
 
 if __name__ == "__main__":
     main()
