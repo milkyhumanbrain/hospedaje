@@ -1,14 +1,10 @@
-# Data Pre-poblada
 rooms = [
-    {'precio': 100.0, 'nombre': 'Suite',     'disponibilidad': 5, 'id': 1},
-    {'precio':  50.0, 'nombre': 'Standard',  'disponibilidad':10, 'id': 2},
-    {'precio': 150.0, 'nombre': 'Deluxe',    'disponibilidad': 2, 'id': 3},
+    {'precio': 80.0, 'nombre': 'Simple', 'disponibilidad': 10, 'id': 1},
+    {'precio': 110.0, 'nombre': 'Doble', 'disponibilidad': 20, 'id': 2},
+    {'precio': 150.0, 'nombre': 'Matrimonial', 'disponibilidad': 5, 'id': 3},
 ]
 
-clients = [
-    {'nombres': 'Juan Perez',  'dni': '1234567'},
-    {'nombres': 'Maria Gomez', 'dni': '7654321'},
-]
+clients = []
 
 def get_rooms():
     return rooms
