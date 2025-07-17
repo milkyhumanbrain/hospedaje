@@ -2,7 +2,6 @@ from reservation import hacer_reserva, consultar_clientes, consultar_habitacione
 from menu import mostrar_menu
 from utils import clear_screen, print_main_header, print_space, press_enter_to_continue
 from reporte_diario import generar_reporte_diario
-from storage import get_reservations
 
 def menu_reserva():
     while True:
@@ -19,8 +18,7 @@ def menu_reserva():
         elif opcion == "3":
             consultar_habitaciones()
         elif opcion == "4":
-            reservas = get_reservations()
-            generar_reporte_diario(reservas)
+            generar_reporte_diario()
         elif opcion == "5":
             break
         else:

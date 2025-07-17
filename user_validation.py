@@ -1,4 +1,4 @@
-from utils import clear_screen, print_login_header, print_access_denied_header, print_space
+from utils import clear_screen, print_login_header, print_access_denied_header, print_space, press_enter_to_continue
 
 def usuario_validacion(usuario):
     return usuario == "admin"
@@ -20,7 +20,7 @@ def registro():
             print_space()
             print("Acceso concedido. ¡Bienvenido!")
             print_space()
-            input("Presione Enter para continuar...")
+            press_enter_to_continue()
             return True
 
         intentos -= 1
@@ -28,7 +28,7 @@ def registro():
             print_space()
             print(f"Usuario o contraseña incorrectos. Le quedan {intentos} intento(s).")
             print_space()
-            input("Presione Enter para continuar...")
+            press_enter_to_continue()
 
     clear_screen()
     print_access_denied_header()

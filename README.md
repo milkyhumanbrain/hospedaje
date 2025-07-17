@@ -16,6 +16,9 @@ Este es un sistema simple para gestionar reservas de hotel desde la consola. Per
    - Luego, te muestra las habitaciones disponibles.
    - Eliges una habitación y cuántos días te quedarás.
    - Al final, te muestra un resumen de la reserva con el costo total.
+4. **Consultar Clientes**: Muestra una lista de todos los clientes registrados.
+5. **Consultar Habitaciones**: Muestra el estado de las habitaciones disponibles.
+6. **Reporte Diario**: Genera un reporte diario con el resumen de las reservas.
 
 ## ¿Cómo ejecutar el programa?
 
@@ -35,6 +38,7 @@ El código está organizado en varios archivos:
 - `user_validation.py`: Se encarga del login.
 - `reservation_menu.py`: Controla el menú principal.
 - `menu.py`: Muestra las opciones del menú.
+- `reporte_diario.py`: Genera un reporte diario con el resumen de las reservas.
 - `reservation.py`: Contiene la lógica para hacer reservas y consultas.
 - `storage.py`: Guarda los datos de las habitaciones y clientes.
 - `utils.py`: Contiene funciones de ayuda para limpiar la pantalla y mostrar títulos.
