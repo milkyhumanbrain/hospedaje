@@ -1,7 +1,8 @@
-from reservation import hacer_reserva, consultar_clientes, consultar_habitaciones
+from reservation import hacer_reserva
 from menu import mostrar_menu
 from utils import clear_screen, print_main_header, print_space, press_enter_to_continue
 from reporte_diario import generar_reporte_diario
+from display import consultar_clientes, consultar_habitaciones
 
 def menu_reserva():
     while True:

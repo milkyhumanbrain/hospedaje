@@ -38,6 +38,7 @@ El código está organizado en varios archivos:
 - `user_validation.py`: Se encarga del login.
 - `reservation_menu.py`: Controla el menú principal.
 - `menu.py`: Muestra las opciones del menú.
+- `display.py`: Contiene funciones para mostrar información en pantalla.
 - `reporte_diario.py`: Genera un reporte diario con el resumen de las reservas.
 - `reservation.py`: Contiene la lógica para hacer reservas y consultas.
 - `storage.py`: Guarda los datos de las habitaciones y clientes.
