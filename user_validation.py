@@ -1,4 +1,3 @@
-import getpass
 from utils import clear_screen, print_login_header, print_access_denied_header, print_space
 
 def usuario_validacion(usuario):
@@ -15,7 +14,7 @@ def registro():
         print_space()
         user = input("Ingrese su usuario: ")
         print_space()
-        contrasena = getpass.getpass("Ingrese su contraseña: ")
+        contrasena = input("Ingrese su contraseña: ")
 
         if usuario_validacion(user) and contrasena_validacion(contrasena):
             print_space()

@@ -7,5 +7,6 @@ def mostrar_menu():
     print("1. Hacer una reserva")
     print("2. Consultar clientes registrados")
     print("3. Consultar estado de las habitaciones")
-    print("4. Salir")
+    print("4. Generar reporte diario")
+    print("5. Salir")
     print_space()

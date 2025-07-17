@@ -5,6 +5,7 @@ rooms = [
 ]
 
 clients = []
+reservations = []
 
 def get_rooms():
     return rooms
@@ -26,3 +27,9 @@ def get_room_by_id(id):
         if room['id'] == id:
             return room
     return None
+
+def get_reservations():
+    return reservations
+
+def add_reservation(reservation):
+    reservations.append(reservation)

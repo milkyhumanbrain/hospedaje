@@ -1,11 +1,12 @@
-from utils import print_space
+from utils import print_space, clear_screen, press_enter_to_continue
 
 # reporte_diario.py
 # Módulo desarrollado para generar un resumen básico del día en el sistema de reservas.
 # Muestra el total de huéspedes registrados, habitaciones ocupadas por tipo,
 # e ingresos totales generados. Útil para revisar el rendimiento diario del hospedaje.
 def generar_reporte_diario(reservas):
-    print("Resumen del día – Hospedaje El Mirador")
+    clear_screen()
+    print("Resumen diario – Hospedaje El Mirador")
     print_space()
 
     total_huespedes = len(reservas)
@@ -26,10 +27,12 @@ def generar_reporte_diario(reservas):
         elif tipo == "matrimonial":
             matrimoniales += 1
 
+    print("--- Resumen Diario ---")
+    print_space()
     print("Total de huéspedes registrados:", total_huespedes)
     print("Habitaciones simples ocupadas:", simples)
     print("Habitaciones dobles ocupadas:", dobles)
     print("Habitaciones matrimoniales ocupadas:", matrimoniales)
     print("Ingreso total del día: S/ {:.2f}".format(ingresos))
     print_space()
-    print("Gracias por usar el sistema")
+    press_enter_to_continue()
